@@ -80,3 +80,7 @@ img {
     height: 100px;
     border-radius: 100px;
 }
+
+#img-1 {
+    box-shadow: #0088a9;
+}
