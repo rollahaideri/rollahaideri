@@ -1,3 +1,13 @@
+function addBox(){
+    var temp = document.getElementById("temp").content;
+    var copy = document.importNode(temp, true);
+    document.getElementById("app").appendChild(copy);   
+}
+    document.getElementById("btn").addEventListener("click",addBox);
+
+
+
+
 // check if the number is positive or negative/zero
 
 const number = prompt("Enter a number: ");
